@@ -23,11 +23,13 @@ function fork_child() {
 }
 
 (async ()=>{
+    if (process.env.is_heroku != undefined)
+        await execasync("ln /app/.apt/usr/bin/x86_64-linux-gnu-g++-10 /app/.apt/usr/bin/g++");
+    
     if (!fs.existsSync("src")) {
         console.log("Cloning...");
         await execasync(`git clone ${giturl} src`);
         console.log("Installing dependencies");
-        if (process.env.is_heroku != undefined)
         await execasync("cd src && npm install");
     }
 
