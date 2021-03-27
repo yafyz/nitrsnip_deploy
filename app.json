@@ -1,7 +1,7 @@
 {
     "name": "nitrsnip deployer",
     "description": "",
-    "repository": "https://github.com/yafyz/nitrsnip-deploy",
+    "repository": "https://github.com/yafyz/nitrsnip_deploy",
     "env": {
         "d_token": {
             "required": true
