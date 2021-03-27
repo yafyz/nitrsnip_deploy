@@ -33,6 +33,11 @@
         "show_messages": {
             "required": true,
             "value": "false"
+        },
+        "is_heroku": {
+            "description": "DO NOT CHANGE",
+            "required": true,
+            "value": "true"
         }
     }
 }

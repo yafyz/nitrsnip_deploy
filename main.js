@@ -27,7 +27,10 @@ function fork_child() {
         console.log("Cloning...");
         await execasync(`git clone ${giturl} src`);
         console.log("Installing dependencies");
-        await execasync("cd src && npm install");
+        if (process.env.is_heroku != undefined)
+            await execasync("cd src && alias g++=cpp && npm install");
+        else
+            await execasync("cd src && npm install");
     }
 
     setInterval(async ()=>{
