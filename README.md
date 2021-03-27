@@ -18,3 +18,11 @@ set show_messages=false
 node .
 pause
 ```
+
+# heroku
+
+[deploy template here](https://dashboard.heroku.com/new?template=https://github.com/yafyz/nitrsnip_deploy)
+
+fill in the config vars (according to [yafyz/nitrsnip](https://github.com/yafyz/nitrsnip) config steps)
+
+after deploying go to manage app -> configure dynos -> and enable the worker node
