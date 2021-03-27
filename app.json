@@ -2,6 +2,13 @@
     "name": "nitrsnip deployer",
     "description": "",
     "repository": "https://github.com/yafyz/nitrsnip_deploy",
+    "buildpacks": [{
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "heroku-community/apt"
+        }
+    ],
     "env": {
         "d_token": {
             "required": true
