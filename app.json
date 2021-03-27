@@ -1,5 +1,5 @@
 {
-    "name": "nitrsnip deployer",
+    "name": "nitrsnip deploy",
     "description": "",
     "repository": "https://github.com/yafyz/nitrsnip_deploy",
     "buildpacks": [{
