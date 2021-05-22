@@ -21,6 +21,8 @@ pause
 
 # heroku
 
+uh for some reason heroku seems to break the sniper
+
 [deploy template here](https://dashboard.heroku.com/new?template=https://github.com/yafyz/nitrsnip_deploy)
 
 recommended region is USA, god bless america
