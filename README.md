@@ -21,7 +21,7 @@ pause
 
 # heroku
 
-uh for some reason heroku seems to break the sniper
+heroku might work now, not sure
 
 [deploy template here](https://dashboard.heroku.com/new?template=https://github.com/yafyz/nitrsnip_deploy)
 
